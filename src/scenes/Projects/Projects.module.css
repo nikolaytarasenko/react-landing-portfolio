@@ -1,0 +1,88 @@
+.projects {
+    padding: 80px 0;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 4rem;
+    margin-bottom: 4rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.project:last-child {
+    margin-bottom: 0;
+}
+
+.projectReact {
+    background-color: #f6fbff;
+}
+
+.projectTitle {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.type {
+    margin-bottom: 22px;
+}
+
+.stack {
+    color: #121212;
+    color: #6f3131;
+    color: #285669;
+    font-size: 18px;
+}
+
+.stack span {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 8px;
+    background-color: #e7f1ee;
+    background-color: #f5e8e8;
+    background-color: #cfe7f3;
+    border-radius: 40px;
+}
+
+.stack span:last-child {
+    margin-right: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.links a {
+    color: #0969da;
+    transition: 0.15s ease-out;
+}
+
+.links a span {
+    position: relative;
+    transition: right 0.15s ease-out;
+    right: 0;
+}
+
+.links a:hover {
+    color: #cb0a0a;
+}
+
+.links a:hover span {
+    display: inline-block;
+    right: -3px;
+}

@@ -1,0 +1,33 @@
+.about {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.inner {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    justify-content: center;
+}
+
+.imgWrapper {
+    font-size: 0;
+}
+
+.imgWrapper img {
+    max-width: 400px;
+    border-radius: 80px;
+    transform: scale(-1, 1);
+    border: 3px solid #fff;
+    box-shadow: 0 0 6px 1px rgba(0,0,0,0.1);
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}

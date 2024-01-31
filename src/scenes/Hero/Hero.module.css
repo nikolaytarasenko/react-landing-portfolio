@@ -1,0 +1,106 @@
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.content {
+    padding: 20px 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #555;
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    .title {
+        background: linear-gradient(90deg,#3b3b3b,#1774b5);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
+
+.text {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.links {
+    font-size: 0;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link {
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 0;
+}
+
+.link svg {
+    width: 30px;
+    height: 30px;
+}
+
+.link path {
+    transition: 0.15s ease-out;
+}
+
+.link:hover path {
+    fill: #0f65b1;
+}
+
+.img {
+    background-image: url("/src/assets/hero.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #555;
+    width: 350px;
+    height: 413px;
+    border-radius: 60% 40% 50% 66%/60% 30% 70% 42%;
+    position: relative;
+    transition: all 1s ease-in-out;
+    animation: border-morph 3s ease-in-out infinite;
+}
+
+.stack {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 0;
+}
+
+.logo img {
+    width: 50px;
+}
+
+@keyframes border-morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}

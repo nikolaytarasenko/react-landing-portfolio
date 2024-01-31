@@ -23,3 +23,17 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    max-width: 1070px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0f65b1;
+    margin: 10px 0 20px;
+}

@@ -1,0 +1,37 @@
+.footer {
+    padding: 80px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0;
+}
+
+.link {
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 0;
+}
+
+.link svg {
+    width: 24px;
+    height: 24px;
+}
+
+.link path {
+    transition: 0.15s ease-out;
+}
+
+.link:hover path {
+    fill: #53b0ff;
+}

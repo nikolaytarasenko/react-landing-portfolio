@@ -7,6 +7,8 @@
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px 50px;
+    z-index: 99;
+    background-color: #fff;
 }
 
 .logo {
@@ -58,7 +60,7 @@
 .menu {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .menu a {
@@ -66,8 +68,10 @@
     font-weight: 700;
     transition: 0.15s ease-out;
     font-size: 18px;
+    padding: 8px 15px;
 }
 
 .menu a:hover {
-    color: #0f65b1;
+    background-color: rgba(243,244,246,1);
+    border-radius: 30px;
 }

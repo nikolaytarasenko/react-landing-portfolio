@@ -1,21 +1,22 @@
 import styles from './Navbar.module.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = () => {
     return (
         <nav className={styles.nav}>
-            <a href="#" className={styles.logo}>tarasenko</a>
+            <AnchorLink href="#hero" className={styles.logo}>tarasenko</AnchorLink>
             <ul className={styles.menu}>
                 <li>
-                    <a href="#">Головна</a>
+                    <AnchorLink href="#hero">Головна</AnchorLink>
                 </li>
                 <li>
-                    <a href="#">Про мене</a>
+                    <AnchorLink href="#projects">Проекти</AnchorLink>
                 </li>
                 <li>
-                    <a href="#">Проекти</a>
+                    <AnchorLink href="#about">Про мене</AnchorLink>
                 </li>
                 <li>
-                    <a href="#">Контакти</a>
+                    <AnchorLink href="#contact">Контакти</AnchorLink>
                 </li>
             </ul>
         </nav>
