@@ -15,33 +15,48 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 4rem;
-    margin-bottom: 4rem;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+    padding: 3rem 0;
+    border-bottom: 1px solid #f3f3f3;
 }
 
 .project:last-child {
     margin-bottom: 0;
 }
 
+.projectMarkup {
+    background: url("../../assets/gulp-icon.svg") 70% 50%/14% no-repeat;
+}
+
 .projectReact {
-    background-color: #f6fbff;
+    background: url("../../assets/react-icon.svg") 70% 50%/14% no-repeat;
+}
+
+.projectJavascript {
+    background: url("../../assets/js-icon.svg") 70% 50%/14% no-repeat;
+}
+
+.info > a {
+    transition: 0.15s ease-out;
+}
+
+.info > a:hover {
+    color: #0f65b1;
 }
 
 .projectTitle {
+    display: inline-block;
     font-size: 32px;
     margin-bottom: 20px;
     line-height: 1;
 }
 
-.type {
+.description {
+    color: #2b2b2b;
     margin-bottom: 22px;
+    font-size: 19px;
 }
 
 .stack {
-    color: #121212;
-    color: #6f3131;
     color: #285669;
     font-size: 18px;
 }
@@ -50,9 +65,7 @@
     display: inline-block;
     padding: 5px 10px;
     margin-right: 8px;
-    background-color: #e7f1ee;
-    background-color: #f5e8e8;
-    background-color: #cfe7f3;
+    background-color: #ddedf5;
     border-radius: 40px;
 }
 
@@ -85,4 +98,52 @@
 .links a:hover span {
     display: inline-block;
     right: -3px;
+}
+
+@media (max-width: 767.98px) {
+    .projects {
+        padding: 50px 0;
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2rem 0;
+    }
+
+    .projectMarkup,
+    .projectReact,
+    .projectJavascript {
+        background-position: 100% 50%;
+    }
+
+    .projectTitle {
+        font-size: 28px;
+    }
+
+    .info {
+        margin-bottom: 17px;
+    }
+
+    .stack {
+        font-size: 15px;
+    }
+
+    .stack span {
+        margin-bottom: 8px;
+    }
+
+    .links {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .projectTitle {
+        font-size: 26px;
+    }
+
+    .stack {
+        max-width: 86%;
+    }
 }

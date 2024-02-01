@@ -12,12 +12,13 @@
 
 .imgWrapper {
     font-size: 0;
+    padding-right: 15px;
 }
 
 .imgWrapper img {
     max-width: 400px;
+    width: 100%;
     border-radius: 80px;
-    transform: scale(-1, 1);
     border: 3px solid #fff;
     box-shadow: 0 0 6px 1px rgba(0,0,0,0.1);
 }
@@ -30,4 +31,23 @@
     font-size: 17px;
     line-height: 22px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .imgWrapper {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .about {
+        padding: 50px 0;
+    }
 }

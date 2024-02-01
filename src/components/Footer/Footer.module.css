@@ -35,3 +35,14 @@
 .link:hover path {
     fill: #53b0ff;
 }
+
+@media (max-width: 575.98px) {
+    .footer {
+        padding: 40px 0;
+    }
+
+    .inner {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

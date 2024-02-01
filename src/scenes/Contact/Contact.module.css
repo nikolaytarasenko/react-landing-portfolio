@@ -15,3 +15,14 @@
 .item h4 {
     margin-bottom: 10px;
 }
+
+@media (max-width: 767.98px) {
+    .contact {
+        padding: 50px 0;
+    }
+
+    .contacts {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

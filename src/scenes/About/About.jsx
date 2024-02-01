@@ -13,8 +13,8 @@ const About = () => {
                         <h3 className="subtitle">Про мене</h3>
                         <h2 className={styles.title}>Front-end розробник</h2>
                         <p className={styles.text}>Мене звати Коля, я з Києва, і я займаюсь розробкою UI.</p>
-                        <p className={styles.text}>Для повсякденних завдань найчастіше використовую Pug, Sass, Bootstrap, TailwindCSS, JavaScript, Gulp. Також напишу все з нуля, не використовуючи сторонні бібліотеки чи фреймворки. Можу перетворити дизайнерський макет в готову тему WordPress.</p>
-                        <p className={styles.text}>На даний момент активно вивчаю бібліотеку React.</p>
+                        <p className={styles.text}>Для повсякденних завдань найчастіше використовую Pug, Sass, Bootstrap, TailwindCSS, JavaScript, Gulp, React. Також напишу все з нуля, не використовуючи сторонні бібліотеки чи фреймворки.</p>
+                        <p className={styles.text}>Можу перетворити дизайнерський макет в готову тему WordPress.</p>
                     </div>
                 </div>
             </div>

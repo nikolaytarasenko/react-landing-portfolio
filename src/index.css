@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    font-family: 'Commissioner', 'Segoe UI', Arial, sans-serif;
     font-weight: 400;
     color: #555;
     background-color: #fff;
@@ -36,4 +36,8 @@ ul {
     text-transform: uppercase;
     color: #0f65b1;
     margin: 10px 0 20px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
 }
