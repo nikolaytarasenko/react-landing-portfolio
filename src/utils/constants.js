@@ -3,6 +3,17 @@ import { v4 as uuidv4 } from 'uuid'
 export const projects = [
     {
         id: uuidv4(),
+        type: 'React',
+        title: 'GitHub Repository Details',
+        description: 'Search GitHub repositories by user name and view some details',
+        stack: ['React', 'Redux Toolkit', 'Chakra UI'],
+        links: [
+            { id: uuidv4(), title: 'Demo', url: 'https://github-repository-details.netlify.app/' },
+            { id: uuidv4(), title: 'GitHub', url: 'https://github.com/nikolaytarasenko/github-repository-details' },
+        ]
+    },
+    {
+        id: uuidv4(),
         type: 'Markup',
         title: 'Vosk Barbershop',
         description: 'Landing Page',
